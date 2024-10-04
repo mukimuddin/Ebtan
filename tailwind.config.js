@@ -5,7 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'brandColor': '#E52525',
+      },
+    },
+    container: {
+      center: true,
+      padding: "50px",
+    },
+    fontFamily: {
+      "inter" : [ "Inter", "sans-serif"]
+    }
   },
   plugins: [],
 }
